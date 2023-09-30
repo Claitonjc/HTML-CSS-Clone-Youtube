@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    width: 1440px;
+    height: 56px;
+    padding: 0 24px;
+    background: #fff;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu-left {
+    width: 146px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .menu-left a {
+    margin-top: 2px;
+}
+
+nav .search-bar{
+    width: 404px;
+    height: 40px;
+    display: flex;
+    
+}
+
+nav .text-field {
+    width: 348px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    padding: 5px;
+}
+
+nav .search-item {
+    width: 57px;
+    height: 40px;
+    border-width: 1px 1px 1px 0;
+    border-style: solid;
+    border-color: #cccccc;
+}
+
+nav .menu-right {
+    width: 130px;
+    height: 34px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+.photo {
+    width: 34px;
+    height: 34px;
+}
+
+main {
+    width: 1440px;
+    height: 1010px;
+    display: flex;
+    background: #f8f8f8;
+}
+
+main .conteiner-main {
+    width: 952px;
+    height: 746px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    left: 75px;
+    top: 28px;
+}
+
+main .conteiner-main .main-title {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+main .player {
+    width: 952px;
+    height: 537px;
+}
+
+main .section-main {
+    width: 902px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main .main-photo {
+    width: 42px;
+    height: 42px;
+}
+
+main .link-perfil {
+    width: 160px;
+    height: 42px;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+
+main .link-perfil .main-name {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+main .link-perfil span {
+    color: #515151;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+main .subscribe {
+    width: 159px;
+    height: 40px;
+    border-radius: 2px;
+    background: #cc0000;
+    
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+main .actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+main .actions span {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+main .main-views {
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+main .main-comment {
+    width: 510px;
+    height: 64px;
+
+    color: #515151;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+aside {
+    width: 160px;
+    height: 938px;
+    position: absolute;
+    top: 84px;
+    left: 1285px;
+}
+
+aside .menu-aside {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+aside .menu-aside .aside-videos {
+    display: flex;
+    gap: 16px;
+    
+}
+
+
+
+aside .menu-aside .aside-title {
+    width: 196px;
+    margin-bottom: 10px;
+
+    color: #000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+aside .menu-aside .aside-channel {
+    margin-bottom: 10px;
+    color: #515151;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+
+aside .menu-aside .aside-description {
+    display: flex;
+    flex-direction: column;
+    color: #515151;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+
